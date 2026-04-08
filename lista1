@@ -1,0 +1,264 @@
+import java.util.Scanner;
+
+public class Listadeexercicio1 {
+	static Scanner scan = new Scanner(System.in);
+
+      public static void main(String[] args){
+    	  //exercicio01();
+    	  //exercicio02();
+    	  //exercicio03();
+    	  //exercicio04();
+    	  //exercicio05();
+    	  //exercicio06();
+    	  //exercicio07();
+    	  //exercicio08();
+    	  //exercicio09();
+    	  //exercicio10();
+    	  //exercicio11();
+    	  //exercicio12();
+    	  //exercicio13();
+    	  //exercicio14();
+    	  //exercicio15();
+    	  //exercicio16();
+          //exercicio17();
+    	  //exercicio18();
+    	  //operadoresMatematicos();
+    	  //operadoresComparaçao();
+    	  //desvioSimples();
+    	  //Arrays();
+    	  //Oq();
+      
+      }
+      static void exercicio01() {
+    	  int x;
+    	  x = 10;
+    	  System.out.println("Valor: " + x);
+      }
+      static void exercicio02() {
+    	  
+    	  String nome = ("Miguel ");
+    	  int idade = 16;
+    	  double altura = 1.93;
+    	  
+    	         System.out.println("Meu nome é: " + nome);
+    	         System.out.println("Minha idade é: " + idade);
+    	         System.out.println("Minha altura é: " + altura);
+    	  
+      }
+      static void exercicio03() {
+    	  int valor1 = 20;
+    	  int valor2 = 47;
+    	  int valor3 = valor1 + valor2;
+    	  System.out.println(valor3);
+    	  
+      }
+      static void exercicio04() {
+    	  double produto = 19.99;
+    	  System.out.println("O produto custa: " + produto);
+    		  
+      }
+      static void exercicio05() {
+    	  System.out.println("Digite seu nome: ");
+    	  String nome = scan.nextLine();
+    	  System.out.println("Bem vindo" + nome);
+      }
+      static void exercicio06() {
+    	  System.out.println("Qual sua idade? ");
+    	  int idade = scan.nextInt();
+    	  int mais = 10;
+    	  int soma = idade + mais;
+    	  System.out.println("Voce terá: " + soma + " Anos em 10 anos.");
+      }
+      static void exercicio07() {
+    	  System.out.println("Digite um numero: ");
+    	  int primeiro = scan.nextInt();
+    	  System.out.println("Digite um numero: ");
+    	  int segundo = scan.nextInt();
+    	  int soma = primeiro + segundo;
+    	  System.out.println(" A soma disso da: " + soma + " Parabens.");
+    	  
+      }
+      static void exercicio08() {
+    	  System.out.println("Coloque um numero decimal ");
+    	  double numerofofo = scan.nextDouble();
+    	  double multiplica = numerofofo * 2;
+    	  System.out.println("Multiplicado por 2 é: " + multiplica + " Que legal né ");
+    	  
+      }
+      static void exercicio09() {
+    	  System.out.println("coloque o valor de um produto ");
+    	  double produto = scan.nextDouble();
+    	  double multiplica = produto * 0.9;
+    	  System.out.println("Com 10% de desconto fica: " + multiplica);
+    	  
+      }
+      static void exercicio10() {
+    	  System.out.println("Me dê a base de um retangulo: ");
+    	  int base = scan.nextInt();
+    	  System.out.println("Agora a altura: ");
+    	  int altura = scan.nextInt();
+    	  int resultado = base * altura;
+    	  System.out.println("A área dele é: " + resultado);
+    	 
+    	 
+      }
+      static void exercicio11() {
+    	  System.out.println("Me dê a nota do seu primeiro trimestre: ");
+    	  double primeiro = scan.nextDouble();
+    	  System.out.println("Me dê a nota do seu segundo trimestre: ");
+    	  double segundo = scan.nextDouble();
+    	  System.out.println("Me dê a nota do seu terceiro trimestre: ");
+    	  double terceiro = scan.nextDouble();
+    	  double resulta = primeiro + segundo + terceiro;
+    	  double resulta2 = resulta / 3;
+    	  System.out.println("Sua media é: " + resulta2);
+
+	  }
+      static void exercicio12() {
+    	  System.out.println("Seu salario é? ");
+    	  double salario = scan.nextDouble();
+    	  double aumento = salario * 1.15;
+    	  System.out.println("Seu aumento de 15% ficou: " + aumento + " Obrigado pelo seu esforço com a empresa.");
+    	  
+      }
+      static void exercicio13() {
+    	  System.out.println("Qual seu nome? ");
+    	  String nome = scan.nextLine();
+    	  System.out.println("E sua idade? ");
+    	  int idade = scan.nextInt();
+    	  System.out.println("Olá" + nome + " Você tem " + idade + " Anos");
+    	  
+      }
+      static void exercicio14() {
+    	  System.out.println("Fale um numero: ");
+    	  int numero1 = scan.nextInt();
+    	  System.out.println("Fale outro numero: ");
+    	  int numero2 = scan.nextInt();
+    	  int soma = numero1 + numero2;
+    	  int menos = numero1 - numero2;
+    	  int multiplica = numero1 * numero2;
+    	  int divisao = numero1 / numero2;
+    	  System.out.println("A soma é: " + soma + "a subtraçao é: " + menos + "A multiplicaçao é: " + multiplica + "E a divisão fica: " + divisao);
+    	  
+      }
+      static void exercicio15() {
+    	  System.out.println("Digite uma temperatura: ");
+    	  int graus = scan.nextInt();
+    	  System.out.println(graus + " Em Fahrenheit Fica: " +((graus * 9/5) + 32));
+    	  
+      }
+      static void exercicio16() {
+    	  System.out.println("Quantas horas você trabalhou e qual o valor por hora: ");
+    	  int horas = scan.nextInt();
+    	  int valor = scan.nextInt();
+    	  System.out.println("Seu salario é: " +(double)(horas*valor));
+    	  
+      }
+      static void exercicio17() {
+    	  System.out.println("Seu nome e 3 notas: ");
+    	  String nome = scan.nextLine();
+    	  int nota1 = scan.nextInt();
+    	  int nota2 = scan.nextInt();
+    	  int nota3 = scan.nextInt();
+    	  int resulta = (nota1 + nota2 + nota3) / 3;
+    	  System.out.println("Oi " + nome + "Sua media ficou " + resulta);
+    	  
+      }
+      static void exercicio18() {
+    	  double preço =0;
+    	  System.out.println("Você quer qual? ");
+    	  System.out.println("Pastel R$ 2,50");
+    	  System.out.println("Coxinha R$ 1,50");
+    	  String item = scan.nextLine();
+    	  if(item.equals("Pastel")) {
+    		  preço = 2.50;
+    	  }else if(item.equals("Coxinha")) {
+    		  preço = 1.50;
+    	  }else {
+    		  System.out.println( item + " Este salgado não esta no cardapio hoje");
+    		  return;
+    	  }
+    	  System.out.println("Quantos você vai querer? ");
+    	  int quantos = scan.nextInt();
+    	  System.out.println("Entao você pediu " + quantos + " " + item + " ficou R$" + (preço * quantos));
+      }
+      static void operadoresMatematicos() {
+    	  int x = 10;
+    	  int y = 3;
+    	  System.out.println(x + y);
+    	  System.out.println(x - y);
+    	  System.out.println(x * y);
+    	  System.out.println(x / y); //3,33
+    	  System.out.println(x % y);
+    	  System.out.println(x++);
+    	  System.out.println(x);
+    	  System.out.println(++y);
+    	  System.out.println(--x);
+    	  x = x + 1;
+      }
+      static void operadoresComparaçao() {
+    	  int x = 10;
+    	  int y = 30;
+    	  System.out.println(x < y);
+    	  System.out.println(x > y);
+    	  System.out.println(x == y);
+    	  System.out.println(x != y);
+    	  System.out.println(x <= y);
+    	  System.out.println(x >= y);
+      }
+      static void desvioSimples() {
+    	  int x = 10;
+    	  int y = 20;
+    	  if(x < y) {
+    		  System.out.println(x + " é menor que " + y);
+    	  }
+    	  System.out.println("Fim do programa");
+      }
+      static void Arrays() {
+  		String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+  		System.out.println(cars[0]);
+  		System.out.println(cars[2]);
+  		
+  		cars[2] = "Chevrolet";
+  		System.out.println(cars[2]);
+  		System.out.println("");
+  		 
+  		//for indexado
+  		for(int i = 0; i < cars.length; i++) {
+  			System.out.println(i + " -> " + cars[i]);
+  			
+  		}
+  		System.out.println("");
+  		int x = 0;
+  		while(x < cars.length) {
+  			System.out.println(x + " -> " + cars[x]);
+  			x++;
+  		}
+  		
+  		//nao indexado - interativo
+  		for(String c : cars ) {
+  			System.out.println(c);
+  			
+  		}
+  		int[] numerados = new int[5];
+  		for(int i = 0; i < numerados.length; i++) {
+  			System.out.println("Coloque um numero: ");
+  			numerados[i] = scan.nextInt();
+  		}
+  		for(int numero : numerados) {
+  			System.out.println(numero *2);
+  		}
+  		
+      }
+      static void Oq() {
+          Scanner scan = new Scanner(System.in);
+          System.out.println("Put");
+          System.out.println("number");
+          String myString = scan.next();
+          int myInt = scan.nextInt();
+          scan.close();
+          System.out.println("myString is: " + myString);
+          System.out.println("myInt is: " + myInt);
+          
+      }
+}
