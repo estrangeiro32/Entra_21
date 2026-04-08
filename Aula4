@@ -54,7 +54,7 @@ public class Aula3 {
 			}
 			else {
 			System.out.println(num + " - Impar");
-			}
+			} 
 		}
 		
 		}
