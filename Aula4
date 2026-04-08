@@ -1,0 +1,63 @@
+import java.util.Scanner;
+public class Aula3 {
+	static Scanner scan = new Scanner(System.in);
+    
+	public static void main(String[] args) {
+		//Blabla();
+		//Exercicio2();
+	}
+		static void Blabla() {
+			String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+			System.out.println(cars[0]);
+			System.out.println(cars[2]);
+			
+			cars[2] = "Chevrolet";
+			System.out.println(cars[2]);
+			System.out.println("");
+			 
+			//for indexado
+			for(int i = 0; i < cars.length; i++) {
+				System.out.println(i + " -> " + cars[i]);
+				
+			}
+			System.out.println("");
+			int x = 0;
+			while(x < cars.length) {
+				System.out.println(x + " -> " + cars[x]);
+				x++;
+			}
+			
+			//nao indexado - interativo
+			for(String c : cars ) {
+				System.out.println(c);
+				
+			}
+			int[] numerados = new int[5];
+			for(int i = 0; i < numerados.length; i++) {
+				System.out.println("Coloque um numero: ");
+				numerados[i] = scan.nextInt();
+			}
+			for(int n : numerados) {
+				System.out.println(n *2);
+			
+			}
+		}
+		static void Exercicio2() {
+		int[] nu = new int[10];
+		for(int i = 0; i < nu.length; i++) {
+			System.out.println("Coloque um numero: ");
+			nu[i] = scan.nextInt();
+		}
+			for(int num : nu) {
+			if(num % 2 == 0) {
+				System.out.println(num + " - Par");
+			}
+			else {
+			System.out.println(num + " - Impar");
+			}
+		}
+		
+		}
+		
+		}
+
