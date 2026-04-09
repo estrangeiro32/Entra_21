@@ -1,0 +1,129 @@
+
+import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.Collections;
+
+public class Aulassa {
+
+	public static void main(String[] args) {
+		
+		//Exercicio1();
+		//Exercicio2();
+		//Exercicio3();
+		//Exercicio4();
+		//Exercicio5();
+		//Exercicio6();
+		
+		
+	}
+	
+	
+	static void Exercicio1() {
+		Scanner input = new Scanner(System.in);
+		int[] nu = new int[5];
+		for (int i = 0; i < nu.length; i++) {
+			System.out.println("Informe um numero: ");
+			
+			nu[i] = input.nextInt();
+			
+		}
+		System.out.println("Numeros Digitados: ");
+		for (int i = 0; i < nu.length; i++) {
+			System.out.println(nu[i]);
+		}
+		
+			
+	}
+	static void Exercicio2() {
+			Scanner input = new Scanner(System.in);
+			int[] nu = new int[10];
+			for (int i = 0; i < nu.length; i++) {
+				System.out.println("Informe um numero: ");
+				
+				nu[i] = input.nextInt();
+			}
+			for(int num : nu) {
+				if(num % 2 == 0) {
+					System.out.println(num + " é Par ");
+				}
+				else {
+				System.out.println(num  + " é Impar");		
+	
+		
+				}
+				}
+	}
+	static void Exercicio3() {
+		Scanner input = new Scanner(System.in);
+		int[] nu = new int[10];
+		for (int i = 0; i < nu.length; i++) {
+			System.out.println("Informe um numero: ");
+			nu[i] = input.nextInt();
+			}
+		for (int i = 0; i < nu.length / 2; i++) {
+            int temp = nu[i];
+            nu[i] = nu[nu.length - 1 - i];
+            nu[nu.length - 1 - i] = temp;
+			
+		}
+		System.out.println("lista invetida: ");
+		for (int i = 0; i < nu.length; i++) {
+			System.out.println(nu[i] + " ");
+		}
+	}
+	static void Exercicio4() {
+		Scanner input = new Scanner(System.in);
+		int[] nu = new int[15];
+		for (int i = 0; i < nu.length; i++) {
+			System.out.println("Informe um numero: ");
+			nu[i] = input.nextInt();
+
+			}
+		int maior = nu[0];
+		for(int i = 1; i < nu.length; i++) {
+			
+		if (nu[i] > maior) {
+			maior = nu[i];
+		}
+		
+	}
+		System.out.println("Maior valor: " + maior);
+		
+		
+}
+	static void Exercicio5() {
+		Scanner input = new Scanner(System.in);
+		       int[] nu = new int[8];
+		       for (int i = 0; i < nu.length; i++) {
+			       System.out.println("Informe um numero: ");
+			       nu[i] = input.nextInt();
+		      }
+		       Arrays.sort(nu);
+		       System.out.println(" Em ordem decresente fica: ");
+		       for (int i = nu.length - 1; i >= 0; i--) {
+			   System.out.println(nu[i] + " ");
+	    }
+	}
+    static void Exercicio6() {
+    	Scanner input = new Scanner(System.in);
+	       int[] nu = new int[10];
+	       int soma = 0;
+	       for (int i = 0; i < nu.length; i ++) {
+		       System.out.println("Informe um numero: ");
+		       nu[i] = input.nextInt();
+		       soma += nu[i];
+		       }
+	       double media = (double) soma / nu.length;
+	       
+	       System.out.println("Media: " + media);
+	       
+	       System.out.println("Valores acima da media: ");
+	       for(int i = 0; i < nu.length; i++) {
+	    	   if (nu[i] > media) {
+	    		   System.out.println(nu[i] + " ");
+	    	   }
+	       }
+	       
+	}
+}
