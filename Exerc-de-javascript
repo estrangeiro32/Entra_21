@@ -26,7 +26,23 @@ function exerc1() {
     let valor = 10
     console.log(valor)
 }
+function array() {
+    const prompt = require("prompt-sync")()
+
+    const frutas = ["Amora"]
+
+    var fruta = "c"
+    while(fruta.length > 0){
+        fruta =  prompt("informe nome de fruta: ")
+        frutas.push(fruta)
+
+    }
+    frutas.pop()
+    console.log(frutas)
+
+}
 //exerc1()
 //exerc2()
 //exerc3()
 //exerc4()
+array()
