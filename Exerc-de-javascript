@@ -1,0 +1,32 @@
+function exerc2(){
+let nome = "miguel"
+let idade = 17
+let altura = 1.94
+console.log("Nome: " + nome)
+console.log("Idade: " + idade)
+console.log("Altura: " + altura)
+}
+function exerc3(){
+    let num1 = 10
+    let num2 = 57
+    console.log(num1 + num2)
+}
+function exerc4(){
+    const readline = require('readline')
+
+const rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout
+})
+rl.question("Qual seu nome? ", function(nome) {
+console.log("Bem vindo " + nome + "!")
+rl.close()
+})}
+function exerc1() {
+    let valor = 10
+    console.log(valor)
+}
+//exerc1()
+//exerc2()
+//exerc3()
+//exerc4()
