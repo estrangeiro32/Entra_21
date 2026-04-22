@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto entra 21</title>
+</head>
+<body>
+    <h1>Aula de HTML</h1>
+    <hr />
+    <a href="./texto.html">textos</a>
+    <a href="./cabecalhos.html">cabeçalhos</a>
+    <a href="./inputs.html">inputs</a>
+
+</body>
+</html>
