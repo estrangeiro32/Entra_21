@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resenha</title>
+    <style>
+        button{
+            background-color: black;
+            border: 10px 20px;
+            display: none;
+            color: white;
+        }
+        a{
+            display: none;
+        }
+    </style> 
+</head>
+<body>
+    <button id="Botao" style="display: block;">Não Clique!!!</button>
+    <button id="Botao2">Eu disse para não clicar</button>
+    <button id="Botao3">Cara não clica mais</button>
+    <button id="Botao4">Vôce tem vida ainda</button>
+    <button id="Botao5">Por favor, não clica mais</button>
+    <button id="Botao6">Eu vou desistir de vôce</button>
+    <button id="Botao7">Isso não é vida</button>
+    <button id="Botao8">Nao Clica mais em mim</button>
+    <button id="Botao9">Vôce tem alguem q te ama ainda</button>
+    <p><a id="link" href="https://www.leagueoflegends.com/pt-br/">Apartir daqui ja é sem volta</a></p>
+</body>
+<script>
+    const Botao = document.getElementById("Botao")
+    const Botao2 = document.getElementById("Botao2")
+    const Botao3 = document.getElementById("Botao3")
+    const Botao4 = document.getElementById("Botao4")
+    const Botao5 = document.getElementById("Botao5")
+    const Botao6 = document.getElementById("Botao6")
+    const Botao7 = document.getElementById("Botao7")
+    const Botao8 = document.getElementById("Botao8")
+    const Botao9 = document.getElementById("Botao9")
+    const link = document.getElementById("link")
+
+    Botao.addEventListener("click", function () {
+        Botao2.style.display="block"
+    })
+    Botao2.addEventListener("click", function () {
+        Botao3.style.display="block"
+    })
+    Botao3.addEventListener("click", function () {
+        Botao4.style.display="block"
+    })
+    Botao4.addEventListener("click", function () {
+        Botao5.style.display="block"
+    })
+    Botao5.addEventListener("click", function () {
+        Botao6.style.display="block"
+    })
+    Botao6.addEventListener("click", function () {
+        Botao7.style.display="block"
+    })
+    Botao7.addEventListener("click", function () {
+        Botao8.style.display="block"
+    })
+    Botao8.addEventListener("click", function () {
+        Botao9.style.display="block"
+    })
+    Botao9.addEventListener("click", function () {
+        link.style.display="block"
+    })
+</script>
+</html>
