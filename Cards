@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+<meta charset="UTF-8">
+<title>Card estilo notícia</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+  }
+
+  .card {
+    width: 350px;
+    border-radius: 12px;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: 0 5px 10px 10px rgba(1,0,1,0.1);
+    margin: 20px auto;
+  }
+  .card :hover{
+    transform: scale(1.02);
+    transition: transform 0.2s;
+  }
+
+  .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+
+  .card-content {
+    padding: 12px 14px;
+  }
+
+  .source {
+    font-size: 12px;
+    color: #888;
+    margin-bottom: 6px;
+  }
+
+  .titulo {
+    font-size: 18px;
+    font-weight: bold;
+    color: #223;
+    margin-bottom: 12px;
+  }
+
+  .acao {
+    display: flex;
+    gap: 15px;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .acao span {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <img src="https://th.bing.com/th/id/OIP.pcOK03d6_Emt4ymV6MA43gHaJN?w=203&h=252&c=7&r=0&o=7&pid=1.7&rm=3" alt="Imagem">
+
+  <div class="card-content">
+    <div class="source">Voce conhecia? • 1d </div>
+
+    <div class="titulo">
+      Países com as pessoas mais bonitas do mundo: A posição do Brasil 
+    </div>
+
+    <div class="acao">
+      <span>👍 3.37k</span>
+      <span>💬 167</span>
+      <span>↗️ 67</span>
+    </div>
+  </div>
+</div>
+<div class="card">
+  <img src="https://th.bing.com/th/id/OIP.Wfp1IgmDGC6SOCS9cDKpCAHaEK?w=297&h=180&c=7&r=0&o=7&pid=1.7&rm=3" alt="Imagem">
+
+  <div class="card-content">
+    <div class="source">CNN Brasil • 3w </div>
+
+    <div class="titulo">
+      Após recusa do Iran em negociar, EUA anunciam sanções contra o país
+    </div>
+
+    <div class="acao">
+      <span>👍 167.5k</span>
+      <span>💬 1340</span>
+      <span>↗️ 670</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
